@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardMaxElevation="8dp"
+    app:cardElevation="8dp"
+    android:layout_margin="20dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@drawable/stop_background"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/CashOuttitle"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="70dp"
+            android:text="Daily Expanse"
+            android:textColor="#ffffff"
+            android:textSize="28sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/titleDate"
+            android:layout_width="match_parent"
+            android:paddingTop="15dp"
+            android:layout_height="70dp"
+            android:text="Expense Manager"
+            android:textColor="#ffffff"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/age1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_input"
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:drawableEnd="@drawable/baseline_cancel_24"
+            android:paddingRight="15dp"
+            android:drawableStart="@drawable/baseline_currency_exchange_24"
+            android:layout_margin="15dp"
+            android:hint="Numbers"
+            android:paddingStart="15dp"
+            android:textColor="#9d0b0b"
+            android:textColorHint="#8F8989"
+            android:textSize="20dp"
+            android:textStyle="normal"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/name1"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/custom_input"
+
+            android:drawablePadding="15dp"
+            android:ems="10"
+            android:hint="Enter details"
+            android:layout_margin="15dp"
+            android:paddingStart="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#8F8989"
+            android:textSize="16dp"
+            android:textStyle="normal" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/save"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/cashout_background"
+            android:text="Save"
+            android:layout_margin="15dp"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="normal" />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

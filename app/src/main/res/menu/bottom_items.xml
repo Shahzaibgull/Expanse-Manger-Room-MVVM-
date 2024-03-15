@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/baseline_home_work_24"
+        android:title="Home" />
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/baseline_currency_exchange_24"
+        android:title="Money" />
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/baseline_window_24"
+        android:title="More" />
+</menu>
